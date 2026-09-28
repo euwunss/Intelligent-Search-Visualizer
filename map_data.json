@@ -1,0 +1,205 @@
+{
+  "region": "New York, USA",
+  "total_cities": 22,
+  "total_edges": 32,
+  "locations": {
+    "New York, NY": {
+      "lat": 40.7127281,
+      "lon": -74.0060152
+    },
+    "Yonkers, NY": {
+      "lat": 40.9312099,
+      "lon": -73.8987469
+    },
+    "White Plains, NY": {
+      "lat": 41.0339862,
+      "lon": -73.7629097
+    },
+    "New Rochelle, NY": {
+      "lat": 40.9115386,
+      "lon": -73.7826363
+    },
+    "Poughkeepsie, NY": {
+      "lat": 41.7065539,
+      "lon": -73.9283672
+    },
+    "Newburgh, NY": {
+      "lat": 41.5000767,
+      "lon": -74.0098299
+    },
+    "Kingston, NY": {
+      "lat": 41.9287812,
+      "lon": -74.0023825
+    },
+    "Albany, NY": {
+      "lat": 42.6511674,
+      "lon": -73.754968
+    },
+    "Troy, NY": {
+      "lat": 42.7284117,
+      "lon": -73.6917878
+    },
+    "Schenectady, NY": {
+      "lat": 42.8142432,
+      "lon": -73.9395687
+    },
+    "Saratoga Springs, NY": {
+      "lat": 43.0822315,
+      "lon": -73.785373
+    },
+    "Glens Falls, NY": {
+      "lat": 43.309941,
+      "lon": -73.644447
+    },
+    "Plattsburgh, NY": {
+      "lat": 44.6960855,
+      "lon": -73.4542915
+    },
+    "Utica, NY": {
+      "lat": 43.1009031,
+      "lon": -75.2326641
+    },
+    "Syracuse, NY": {
+      "lat": 43.0481221,
+      "lon": -76.1474244
+    },
+    "Watertown, NY": {
+      "lat": 43.9747838,
+      "lon": -75.9107565
+    },
+    "Rochester, NY": {
+      "lat": 43.157285,
+      "lon": -77.615214
+    },
+    "Buffalo, NY": {
+      "lat": 42.8864163,
+      "lon": -78.8781493
+    },
+    "Binghamton, NY": {
+      "lat": 42.098698,
+      "lon": -75.9125187
+    },
+    "Ithaca, NY": {
+      "lat": 42.4374175,
+      "lon": -76.5483724
+    },
+    "Elmira, NY": {
+      "lat": 42.0897965,
+      "lon": -76.8077338
+    },
+    "Cortland, NY": {
+      "lat": 42.5842136,
+      "lon": -76.0704906
+    }
+  },
+  "graph": {
+    "New York, NY": {
+      "Yonkers, NY": 17.62,
+      "New Rochelle, NY": 22.58
+    },
+    "Yonkers, NY": {
+      "New York, NY": 17.62,
+      "White Plains, NY": 13.37
+    },
+    "White Plains, NY": {
+      "Yonkers, NY": 13.37,
+      "New Rochelle, NY": 11.05,
+      "Newburgh, NY": 47.9,
+      "Poughkeepsie, NY": 61.96
+    },
+    "New Rochelle, NY": {
+      "New York, NY": 22.58,
+      "White Plains, NY": 11.05
+    },
+    "Poughkeepsie, NY": {
+      "White Plains, NY": 61.96,
+      "Newburgh, NY": 18.4,
+      "Kingston, NY": 18.89
+    },
+    "Newburgh, NY": {
+      "White Plains, NY": 47.9,
+      "Poughkeepsie, NY": 18.4,
+      "Kingston, NY": 32.25,
+      "Binghamton, NY": 132.73
+    },
+    "Kingston, NY": {
+      "Newburgh, NY": 32.25,
+      "Poughkeepsie, NY": 18.89,
+      "Albany, NY": 55.19
+    },
+    "Albany, NY": {
+      "Kingston, NY": 55.19,
+      "Troy, NY": 8.05,
+      "Schenectady, NY": 18.38,
+      "Saratoga Springs, NY": 31.95,
+      "Utica, NY": 94.72
+    },
+    "Troy, NY": {
+      "Albany, NY": 8.05,
+      "Saratoga Springs, NY": 28.72
+    },
+    "Schenectady, NY": {
+      "Albany, NY": 18.38,
+      "Utica, NY": 78.13
+    },
+    "Saratoga Springs, NY": {
+      "Albany, NY": 31.95,
+      "Troy, NY": 28.72,
+      "Glens Falls, NY": 18.93
+    },
+    "Glens Falls, NY": {
+      "Saratoga Springs, NY": 18.93,
+      "Plattsburgh, NY": 109.48
+    },
+    "Plattsburgh, NY": {
+      "Glens Falls, NY": 109.48,
+      "Watertown, NY": 161.42
+    },
+    "Utica, NY": {
+      "Albany, NY": 94.72,
+      "Schenectady, NY": 78.13,
+      "Syracuse, NY": 54.66
+    },
+    "Syracuse, NY": {
+      "Utica, NY": 54.66,
+      "Rochester, NY": 86.98,
+      "Watertown, NY": 69.59,
+      "Cortland, NY": 38.7,
+      "Binghamton, NY": 73.12,
+      "Ithaca, NY": 56.84
+    },
+    "Watertown, NY": {
+      "Syracuse, NY": 69.59,
+      "Plattsburgh, NY": 161.42
+    },
+    "Rochester, NY": {
+      "Syracuse, NY": 86.98,
+      "Buffalo, NY": 73.46,
+      "Ithaca, NY": 91.4
+    },
+    "Buffalo, NY": {
+      "Rochester, NY": 73.46
+    },
+    "Binghamton, NY": {
+      "Cortland, NY": 43.04,
+      "Elmira, NY": 57.02,
+      "Syracuse, NY": 73.12,
+      "Newburgh, NY": 132.73
+    },
+    "Ithaca, NY": {
+      "Cortland, NY": 30.21,
+      "Elmira, NY": 33.01,
+      "Syracuse, NY": 56.84,
+      "Rochester, NY": 91.4
+    },
+    "Elmira, NY": {
+      "Ithaca, NY": 33.01,
+      "Binghamton, NY": 57.02
+    },
+    "Cortland, NY": {
+      "Syracuse, NY": 38.7,
+      "Binghamton, NY": 43.04,
+      "Ithaca, NY": 30.21
+    }
+  }
+}
